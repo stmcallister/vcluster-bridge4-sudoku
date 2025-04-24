@@ -1,0 +1,11 @@
+controlPlane:
+  ingress:
+    enabled: true
+    host: scott-vcluster-sudoku.ngrok.io
+sync:
+  fromHost:
+    ingressClasses:
+      enabled: true
+  toHost:
+    ingresses:
+      enabled: true
