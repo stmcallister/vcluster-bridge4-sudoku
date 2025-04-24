@@ -36,12 +36,12 @@ spec:
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: ngrok-ingress
+  name: ingress-nginx
   namespace: game
 spec:
-  ingressClassName: ngrok
+  ingressClassName: nginx
   rules:
-    - host: scott-vcluster-sudoku.ngrok.io
+    - host: sudoku.scott.local
       http:
         paths:
           - path: /
