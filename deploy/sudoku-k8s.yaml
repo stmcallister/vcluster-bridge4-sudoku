@@ -41,7 +41,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: sudoku.scott.local
+    - host: sudoku.kholinar.local
       http:
         paths:
           - path: /
