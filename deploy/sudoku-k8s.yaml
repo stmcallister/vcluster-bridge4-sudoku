@@ -39,9 +39,9 @@ metadata:
   name: ingress-sudoku
   namespace: game
 spec:
-  ingressClassName: nginx
+  ingressClassName: ngrok
   rules:
-    - host: sudoku.kholinar.local
+    - host: sudoku.twincreekdesign.com
       http:
         paths:
           - path: /
